@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://smtpjs.com/v3/smtp.js"></script> 
+        <title>E-xams</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://assets-global.website-files.com/591f58afd078c5546042eda5/59c7f1460dd4c60001a0c367_cab%20-%20construction%20reports.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atma">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
+</head><body>
+<!------------------------------------------------->
+<div id="heading">
+    <h1>E-<i id="ic" class='fas fa-pencil-ruler'></i>ams</h1>
+    <span id="sgn">Exams can't be better...</span>
+    <span id="repu">India's best online examination service provider since 2016</span>
+    <div id="details">Mail ID : support@exams.com<br>No 37, Borilvali West Link Road <br>MHB colony, Mumbai 400091 </div>
+</div><br>
+<div id="container">
+    <br><h2>Register for your exam:</h2>
+    <div class="sub">
+        <label id="EID">E-xam ID:</label><br>
+        <form onsubmit="return(false)"><input id="eid" onclick="eidclk()" class="inp" placeholder="E-xam ID"></input></form>
+    </div>
+    <div class="sub">
+        <label id="EAD">Email Address:</label><br>
+        <form onsubmit="return(false)"><input id="ead" onclick="eadclk()" class="inp" placeholder="Email Address"></input></form>
+    </div>
+    <div class="sub">
+        <label id="PWD">Password:</label><br>
+        <form onsubmit="return(false)"><input id="pwd" onclick="pwdclk()" class="inp" type="password" placeholder="Password"></input></form>
+    </div>
+    <button class="btn" id="submit" onclick="validate()">SUBMIT</button><br><br>
+    <div><h2 id="err"></h2></div>
+</div>
+<!------------------------------------------------->
+<script type="text/javascript" src="./fe.js"></script>
+</body></html>

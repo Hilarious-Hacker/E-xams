@@ -1,0 +1,280 @@
+@media only screen and (min-width: 1025px) {
+    body{
+        font-family: 'Google Sans',serif;
+        font-weight: bolder;
+    }
+    #sgn{
+        position: relative;
+        bottom: 1.8em;
+        right:6em;
+        font-family: 'Atma',serif;
+        font-weight: bolder;
+        
+    }
+    #heading{
+        background: linear-gradient(#3887fe,white);
+        padding:0px 10px;
+        text-align: center;
+    }
+    #repu{
+        float:left;
+        position: relative;
+        bottom:10px;
+    }
+    #container{
+        border:2px solid #3887fe;
+        margin:15px auto;
+        border-radius:6px;
+        padding:2px 3.5px;
+        text-align: center;
+        font-size: larger;
+        width:35%;
+        padding-bottom: 2em;
+    }
+    .sub{
+        width:80%;
+        margin:4px auto;
+        padding:4px 6px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .inp{
+        border-bottom: 2px solid #3887fe;
+        width:80%;
+        height:2.5em;
+        margin:5px 0px;
+        padding:5px 6px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    label{
+        opacity: 0;
+    }
+    #submit{
+        border: 2px solid #3887fe;
+        border-radius:6px;
+        height:3em;
+        width:50%;
+        font-weight: bold;
+        font-family: "Philosopher",serif;
+        font-size:16px;
+        background-color: rgb(232,240,254);
+    }
+    #err{
+        font-size:large;
+    }
+    #details{
+        text-align: right;
+        float: right;
+        position: relative;
+        bottom:6em;
+        font-size:12px;
+    }
+}
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/**************************************tablet***************************************/
+@media only screen and (min-width:486px)  and (max-width:1024px) {
+    body{
+        font-family: 'Google Sans',serif;
+        font-weight: bolder;
+    }
+    #sgn{
+        position: relative;
+        bottom: 1.8em;
+        left:1em;
+        font-family: 'Atma',serif;
+        font-weight: bolder;
+        
+    }
+    #heading{
+        background: linear-gradient(#3887fe,white);
+        padding:0px 10px;
+        text-align: center;
+    }
+    #repu{
+        display: none;
+    }
+    #container{
+        border:2px solid #3887fe;
+        margin:15px auto;
+        border-radius:6px;
+        padding:2px 3.5px;
+        text-align: center;
+        font-size: larger;
+        min-width: 450px;
+        max-width:650px;
+        padding-bottom: 2em;
+    }
+    .sub{
+        width:80%;
+        margin:4px auto;
+        padding:4px 6px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .inp{
+        border-bottom: 2px solid #3887fe;
+        width:80%;
+        height:2.5em;
+        margin:5px 0px;
+        padding:5px 6px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    label{
+        opacity: 0;
+    }
+    #submit{
+        border: 2px solid #3887fe;
+        border-radius:6px;
+        height:3em;
+        width:50%;
+        font-weight: bold;
+        font-family: "Philosopher",serif;
+        font-size:16px;
+        background-color: rgb(232,240,254);
+    }
+    #err{
+        font-size:large;
+    }
+    #details{
+        display: none;
+    }
+}
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/**************************************mobile***************************************/
+@media only screen and (max-width: 485px) {
+    body{
+        font-family: 'Google Sans',serif;
+        font-weight: bolder;
+    }
+    #sgn{
+        text-align: center;
+        position: relative;
+        bottom: 1.8em;
+        font-family: 'Atma',serif;
+        font-weight: bolder;
+    }
+    #heading{
+        text-align: center;
+        background: linear-gradient(#3887fe,white);
+    }
+    #repu{
+        display: none;
+    }
+    #details{
+        display: none;
+    }
+    #container{
+        border-left:2px solid #3887fe;
+        border-top:2px solid #3887fe;
+        border-right:2px solid #48b7ee;
+        border-bottom:2px solid #48b7ee;
+        margin:15px auto;
+        border-radius:14px;
+        padding:2px 3.5px;
+        text-align: center;
+        width:92%;
+        padding-bottom:2em;
+    }
+    .sub{
+        width:90%;
+        margin:4px auto;
+        padding:4px 6px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .inp{
+        border-bottom: 2px solid #3887fe;
+        width:95%;
+        margin:5px 0px;
+        padding:5px 6px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+    }
+    label{
+        opacity: 0;
+    }
+    #submit{
+        border: 2px solid #3887fe;
+        border-radius:6px;
+        height:3em;
+        width:50%;
+        font-weight: bold;
+        font-family: "Philosopher",serif;
+        font-size:16px;
+        background-color: rgb(232,240,254);
+    }
+}
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+.btn{
+    box-shadow: 4px 4px 2.5px 1.6px rgba(0, 0, 0, 0.34);
+}
+.btn:active{
+    transform: scale(0.95);  
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.24); 
+    transition: 0.2s all; 
+}
+
+h1{
+    font-size: 40px;
+}
+#ic{
+    font-size: 24px;
+}
+#container{
+    font-family: "Philosopher",serif;
+}
+
+input{
+    font-weight: bold;
+}
+
+input:focus{
+    outline:0;
+}
+
+button:focus{
+    outline:0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: "Philosopher",serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-family: "Philosopher",serif;
+    color: Black;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-family: "Philosopher",serif;
+    color: Black;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-family: "Philosopher",serif;
+    color: Black;
+    font-weight: bolder;
+    font-size: 16px;
+  }
