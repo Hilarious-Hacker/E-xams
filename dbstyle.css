@@ -1,0 +1,192 @@
+@media only screen and (min-width: 1025px) {
+    #i{
+        display: none;
+    }
+    body{
+        font-family: 'Google Sans',serif;
+        font-weight: bolder;
+    }
+    #sgn{
+        position: relative;
+        bottom: 1.8em;
+        font-family: 'Atma',serif;
+        font-weight: bolder;
+        
+    }
+    #heading{
+        background: linear-gradient(#3887fe,white);
+        padding:0px 10px;
+        text-align: center;
+    }
+    #container{
+        border:2px solid #3887fe;
+        margin:15px auto;
+        border-radius:6px;
+        padding:2em 2em;
+        text-align: center;
+        font-size: larger;
+        width:90%;
+        padding-bottom: 2em;
+        overflow-x: hidden !important;
+    }
+    #submit{
+        border: 2px solid #3887fe;
+        border-radius:6px;
+        height:3em;
+        width:50%;
+        font-weight: bold;
+        font-family: "Philosopher",serif;
+        font-size:16px;
+        background-color: rgb(232,240,254);
+    }
+    dt{
+        text-align: left;
+        color:black;
+    }
+    dd{
+        text-align: right;
+        color:red;
+    }
+    dl{
+        padding:4px 4px;
+        border-bottom: 2px solid black;
+        font-family: 'Google Sans',sans-serif;
+    }
+}
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/**************************************tablet***************************************/
+@media only screen and (min-width:486px)  and (max-width:1024px) {
+    body{
+        font-family: 'Google Sans',serif;
+        font-weight: bolder;
+    }
+    #sgn{
+        position: relative;
+        bottom: 1.8em;
+        font-family: 'Atma',serif;
+        font-weight: bolder;
+        
+    }
+    #heading{
+        background: linear-gradient(#3887fe,white);
+        padding:0px 10px;
+        text-align: center;
+    }
+    #container{
+        border:2px solid #3887fe;
+        margin:15px auto;
+        border-radius:6px;
+        padding:2px 3.5px;
+        text-align: center;
+        font-size: larger;
+        min-width: 450px;
+        max-width:650px;
+        padding:2em 2em;
+        padding-bottom: 2em;
+        overflow-x: hidden !important;
+    }
+    #submit{
+        border: 2px solid #3887fe;
+        border-radius:6px;
+        height:3em;
+        width:50%;
+        font-weight: bold;
+        font-family: "Philosopher",serif;
+        font-size:16px;
+        background-color: rgb(232,240,254);
+    }
+    dt{
+        text-align: left;
+        color:black;
+    }
+    dd{
+        text-align: right;
+        color:red;
+    }
+    dl{
+        padding:4px 4px;
+        border-bottom: 2px solid black;
+        font-family: 'Google Sans',sans-serif;
+    }
+}
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/**************************************mobile***************************************/
+@media only screen and (max-width: 485px) {
+    body{
+        font-family: 'Google Sans',serif;
+        font-weight: bolder;
+    }
+    #sgn{
+        text-align: center;
+        position: relative;
+        bottom: 1.8em;
+        font-family: 'Atma',serif;
+        font-weight: bolder;
+    }
+    #heading{
+        text-align: center;
+        background: linear-gradient(#3887fe,white);
+    }
+    #container{
+        border-left:2px solid #3887fe;
+        border-top:2px solid #3887fe;
+        border-right:2px solid #48b7ee;
+        border-bottom:2px solid #48b7ee;
+        margin:15px auto;
+        border-radius:14px;
+        padding:2px 3.5px;
+        text-align: center;
+        width:92%;
+        padding-bottom:2em;
+        overflow-x: hidden !important;
+    }
+    dt{
+        text-align: left;
+        color:black;
+    }
+    dd{
+        text-align: right;
+        color:red;
+    }
+    dl{
+        padding:4px 4px;
+        border-bottom: 2px solid black;
+        font-family: 'Google Sans',sans-serif;
+    }
+    #submit{
+        border: 2px solid #3887fe;
+        border-radius:6px;
+        height:3em;
+        width:50%;
+        font-weight: bold;
+        font-family: "Philosopher",serif;
+        font-size:16px;
+        background-color: rgb(232,240,254);
+    }
+}
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+h1{
+    font-size: 40px;
+}
+#ic{
+    font-size: 24px;
+}
+#container{
+    font-family: "Philosopher",serif;
+}
+h2{
+    text-align: center;
+}
