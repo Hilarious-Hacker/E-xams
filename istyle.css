@@ -2,6 +2,9 @@
     #i{
         display: none;
     }
+    #last{
+        width:70%;
+    }
     body{
         font-family: 'Google Sans',serif;
         font-weight: bolder;
@@ -76,6 +79,9 @@
         padding-bottom: 2em;
         overflow-x: hidden !important;
     }
+    #last{
+        width:60%;
+    }
     #i{
         display: none;
     }
@@ -135,6 +141,9 @@
         font-size:16px;
         background-color: rgb(232,240,254);
     }
+    #last{
+        width:60%;
+    }
 }
 /***********************************************************************************/
 /***********************************************************************************/
@@ -149,6 +158,7 @@ h1{
     font-size: 24px;
 }
 #container{
+    background-color: rgb(232,240,254);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h2{
